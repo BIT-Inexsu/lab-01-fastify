@@ -1,0 +1,23 @@
+{
+  "name": "lab-01-fastify-server",
+  "version": "1.0.0",
+  "description": "Laboratorio #1: Lanzar un servidor Node/Fastify",
+  "keywords": [
+    "node",
+    "fastify"
+  ],
+  "homepage": "https://github.com/BIT-Inexsu/lab-01-fastify#readme",
+  "bugs": {
+    "url": "https://github.com/BIT-Inexsu/lab-01-fastify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BIT-Inexsu/lab-01-fastify.git"
+  },
+  "license": "ISC",
+  "author": "Juan Carlos Jiménez Gutiérrez <jcarlosj.dev@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
