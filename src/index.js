@@ -1,13 +1,14 @@
-import greetingRoute from './routes/example.route.js'
+import greetingRoutes from './routes/example.route.js'
 
 // Import the framework and instantiate it
 import Fastify from 'fastify'
+import userRoutes from './routes/user.route.js'
 const fastify = Fastify({
   logger: true
 })
 
 // Declare a route
-fastify.register( greetingRoute )
+fastify.register( greetingRoutes )
 
 // Run the server!
 try {

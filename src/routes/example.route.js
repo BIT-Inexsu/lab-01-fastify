@@ -2,8 +2,8 @@ import fastify from "fastify"
 
 import { getGreeting } from "../controllers/example.controller.js"
 
-async function greetingRoute(fastify, options) {
+async function greetingRoutes(fastify, options) {
   fastify.get( '/', getGreeting )
 }
 
-export default greetingRoute;
+export default greetingRoutes;
