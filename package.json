@@ -17,11 +17,15 @@
   "license": "ISC",
   "author": "Juan Carlos Jiménez Gutiérrez <jcarlosj.dev@gmail.com>",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "jest": "^30.0.0",
     "supertest": "^7.1.1"
+  },
+  "dependencies": {
+    "fastify": "^5.4.0"
   }
 }
